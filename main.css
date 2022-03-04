@@ -1,0 +1,243 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: #c09081;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90%;
+    font-size: 25px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    
+}
+p,h3{
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 0px 5px black;
+    justify-content: center;
+}
+h3{
+    font-size: 60px;
+}
+
+nav ul,
+nav li{
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+nav ul{
+    display: flex;
+}
+
+a:hover{
+    background-color: #c08781;
+    color: white;
+    border-radius: 50px;
+
+    
+}
+#biografia, #pagina-inicial, #arte, #vida-pessoal,#as-melhores{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+#pagina-inicial{
+    background-image: url(gloria.png);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+#arte .container{
+    background-color:#ca9f9a;
+    flex-direction: row;
+    display: flex;
+}
+
+
+
+
+h1,a, footer p{
+    padding: 10px;
+    text-shadow: 2px 2px 1px black;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'League Gothic', sans-serif;
+}
+h1{
+    font-size: 8vw;
+}
+
+.menu,.nome{
+    display: flex;
+    margin: 30px;
+}
+.menu{
+    height: 60px;
+    justify-content: center;
+    margin: 0px;
+    display: flex;
+    backdrop-filter: blur(10px);
+    display: flex;
+}
+.menu div{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 1px 0px 1px black;
+    font-weight: bold;
+
+}
+
+.nome{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.container{
+    display: flex;
+    border-top: 2px dotted white;
+    background-color: #c08781;
+    width: 90vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.imagem-biografia{
+    background-image: url(gloria1.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+    box-shadow: 3px 3px 2px #ccc;
+    border: 2px solid white;
+    margin-bottom: 40px;
+    flex: 1;
+}
+
+.imagem-arte{
+    background-image: url(imperio.jpg);
+    background-size: cover;
+    background-position: center;
+    min-width: 10vw;
+    margin: 20px;
+    box-shadow: 3px 3px 2px #ccc;
+    border: 2px solid white;
+    
+}
+.imagens-vida-pessoal{
+ display: flex;
+ justify-content: center;
+ margin-top: 20px;
+}
+.imagens-vida-pessoal div{
+    width: 300px;
+    margin: 10px;
+    height: 100px;
+}
+.pessoal-1,.pessoal-2,.pessoal-3{
+    box-shadow: 3px 3px 2px #ccc;
+    border: 2px solid white;
+    background-position: center;
+    background-size: cover;
+}
+.pessoal-1{
+    background-image: url(daniel.png);
+}
+.pessoal-2{
+    background-image: url(Daniel_Garcia.jpg);
+}
+.pessoal-3{
+    background-image: url(daniel2.jpg);
+}
+
+footer{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(195,120,104);
+background: -moz-linear-gradient(0deg, rgba(195,120,104,1) 0%, rgba(255,255,255,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(195,120,104,1) 0%, rgba(255,255,255,1) 100%);
+background: linear-gradient(0deg, rgba(195,120,104,1) 0%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c37868",endColorstr="#ffffff",GradientType=1);
+}
+footer div{
+    margin: 40px;
+}
+footer p{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+} 
+footer a{
+    color: white;
+}
+@media screen and (max-width: 1000px) {
+    footer{
+        height: 70px;
+    }
+    footer p{
+    display: block;
+    font-size: 15px;
+}
+    footer a {
+    font-size: 15px;
+}
+    
+      p{
+          font-size:20px;
+      }
+    
+  }
+  @media screen and (max-width: 500px)  {
+    
+
+    .menu a{
+        padding: 0;
+        font-size: 20px;
+ }
+      p{
+          font-size:15px;
+      }
+      h3{
+          font-size: 30px;
+      }
+      
+    
+  }
+
+
+
+
+
+
+
+
